@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>링크 모음</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--ink:#1d1d1b;--sub:#6b6b66;--line:#e4e4df}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--card:#21211f;--ink:#efefea;--sub:#a3a39c;--line:#33332f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Malgun Gothic",sans-serif}
+main{max-width:520px;margin:0 auto;padding:28px 16px 40px}h1{font-size:19px;margin:0 0 4px}p{color:var(--sub);margin:0 0 18px;white-space:pre-line}
+input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;margin-bottom:12px}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}a{display:flex;align-items:center;gap:12px;padding:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;color:inherit;text-decoration:none}
+img,.ph{width:52px;height:52px;flex:none;border-radius:8px;object-fit:cover;background:var(--line)}small{display:block;color:var(--sub);font-size:11px;margin-top:20px}
+</style></head><body><main>
+<h1>링크 모음</h1>
+<input type="search" placeholder="번호나 이름으로 찾기" aria-label="링크 찾기" oninput="for(const li of document.querySelectorAll('li'))li.hidden=!li.textContent.includes(this.value.trim())">
+<ul>
+
+</ul>
+<small>이 페이지의 쿠팡 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</small>
+</main></body></html>
